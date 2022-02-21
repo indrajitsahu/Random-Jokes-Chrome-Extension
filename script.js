@@ -6,6 +6,6 @@ fetch('https://icanhazdadjoke.com/slack')
         const jokeText = jokeData.attachments[0].text;
         let para = document.getElementById('joke');
         para.innerHTML = jokeText;
-    })
+    }) 
     
 
